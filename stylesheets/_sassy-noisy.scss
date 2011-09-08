@@ -1,0 +1,10 @@
+$sassy-noise-intensity-default:  0.5 !default;
+$sassy-noise-opacity-default:    0.08 !default;
+$sassy-noise-size-default:       200 !default;
+$sassy-noise-mono-default:       false !default;
+
+._sassy_noise_repeat {
+  background-repeat:  repeat;
+}
+
+@import "sassy_noise/_sassy_noise";

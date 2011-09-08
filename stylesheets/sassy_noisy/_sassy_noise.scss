@@ -1,0 +1,14 @@
+@mixin sassy-noise(
+  $intensity: $sassy-noise-intensity-default,
+  $opacity:   $sassy-noise-opacity-default,
+  $size:      $sassy-noise-size-default,
+  $mono:      $sassy-noise-mono-default
+) {
+  background-image: background_noise(
+    $intensity: $intensity,
+    $opacity: $opacity,
+    $size: $size,
+    $mono: $mono
+  );
+  @extend ._sassy_noise_repeat;
+}
