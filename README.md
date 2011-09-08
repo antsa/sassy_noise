@@ -6,18 +6,19 @@ noise background images as base64 data URIs.
 
 Based on work of @philippbosch & @aaronrussell.
 
-No templates?
-=============
+Installation
+============
 
-I've omitted the project template because probably no-one wants to build a
-project based on noise. I might add another pattern later.
+    $ gem install sassy_noise
+    
+In your Compass projects config.rb etc:
+
+    require "sassy_noise"
 
 Basic usage
 ===========
 
-In your config.rb etc:
 
-    require "sassy_noise"
     
 In your .scss:
 
@@ -28,12 +29,21 @@ In your .scss:
     // $bg-noise-mono-default:       false;
 
     @import "sassy_noise";
-    // Example usage
+    
+    // Example usage on <body>
+    
     body {
       @include bg-noise();
     }
+    
     // Monochrome example
     body {
       @include bg-noise($mono: true);
     }
+    
+No templates?
+=============
+
+I've omitted the project template because probably no-one wants to build a
+project based on noise. I might add another pattern later.
 
