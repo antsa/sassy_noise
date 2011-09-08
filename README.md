@@ -33,12 +33,12 @@ In your .scss:
     // Example usage on <body>
     
     body {
-      @include bg-noise();
+      @include sassy_noise;
     }
     
     // Monochrome example
     body {
-      @include bg-noise($mono: true);
+      @include sassy-noise($mono: true);
     }
     
 No templates?
