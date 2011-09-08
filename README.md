@@ -38,7 +38,7 @@ In your .scss:
     
     // Monochrome example
     body {
-      @include sassy-noise($mono: true);
+      @include sassy_noise($mono: true);
     }
     
 No templates?
