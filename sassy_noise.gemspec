@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.summary = %q{a sass port of the noisy js plugin as a compass extension}
   s.description = %q{a sass port of the noisy js plugin as a compass extension that creates backgrond noise images as base64 data URIs}
   s.email = "salosen.antti@gmail.com"
+  s.homepage = "https://github.com/antsa/Sassy-noise"
 
   # Gem Files
   s.files = %w(README.md)
