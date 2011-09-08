@@ -11,6 +11,8 @@ Usage:
 @import "sassy_noise";
 body {@include sassy_noise();}
 
+More info from Github: https://github.com/antsa/sassy_noise
+
 }
 
 welcome_message %Q{
@@ -20,5 +22,7 @@ Usage:
 
 @import "sassy_noise";
 body {@include sassy_noise();}
+
+More info from Github: https://github.com/antsa/sassy_noise
 
 }
