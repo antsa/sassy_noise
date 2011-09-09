@@ -4,7 +4,7 @@ Sassy noise
 A Sass port of Noisy JS (https://github.com/DanielRapp/Noisy) for generating
 noise background images as base64 data URIs.
 
-Based on work of @philippbosch & @aaronrussell.
+Based on work of @philippbosch & @aaronrussell (https://gist.github.com/1200394/741bb7566da29b1e1550f3e7e135390966f5c83f).
 
 Installation
 ============
