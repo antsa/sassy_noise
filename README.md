@@ -47,3 +47,9 @@ No templates?
 I've omitted the project template because probably no-one wants to build a
 project based on noise. I might add another pattern later.
 
+TODO
+====
+
+* Add templates
+* Add common case @mixins
+* Add tests
