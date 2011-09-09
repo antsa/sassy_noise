@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "0.1.2"
+  s.version = "0.1.3"
   s.date = "2011-09-09"
 
   # Gem Details
   s.name = "sassy_noise"
-  s.authors = ["Antti Salonen"]
+  s.authors = ["Antti Salonen", "Vesa Vänskä"]
   s.summary = %q{a sass port of the noisy js plugin as a compass extension}
   s.description = %q{a sass port of the noisy js plugin as a compass extension that creates backgrond noise images as base64 data URIs}
   s.email = "salosen.antti@gmail.com"
