@@ -8,7 +8,7 @@ Based on work of @philippbosch & @aaronrussell
 
 Usage:
 
-@import "sassy_noise";
+@import "sassy-noise";
 body {@include sassy_noise();}
 
 More info from Github: https://github.com/antsa/sassy_noise
@@ -20,7 +20,7 @@ sassy_noise
 
 Usage:
 
-@import "sassy_noise";
+@import "sassy-noise";
 body {@include sassy_noise();}
 
 More info from Github: https://github.com/antsa/sassy_noise

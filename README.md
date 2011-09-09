@@ -28,17 +28,17 @@ In your .scss:
     // $bg-noise-size-default:       200;
     // $bg-noise-mono-default:       false;
 
-    @import "sassy_noise";
+    @import "sassy-noise";
     
     // Example usage on <body>
     
     body {
-      @include sassy_noise;
+      @include sassy-noise;
     }
     
     // Monochrome example
     body {
-      @include sassy_noise($mono: true);
+      @include sassy-noise($mono: true);
     }
     
 No templates?
