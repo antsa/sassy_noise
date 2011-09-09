@@ -47,9 +47,18 @@ No templates?
 I've omitted the project template because probably no-one wants to build a
 project based on noise. I might add another pattern later.
 
+Development
+===========
+
+To run the project tests run `rake` in the project home directory.
+
+You need RSpec to run the tests. Easiest way to install RSpec is to run 
+`gem install sassy_noise --development` which installs the development 
+dependencies.
+
 TODO
 ====
 
 * Add templates
 * Add common case @mixins
-* Add tests
+
