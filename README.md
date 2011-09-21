@@ -23,10 +23,10 @@ Basic usage
 In your .scss:
 
     // Default values
-    // $bg-noise-intensity-default:  0.5;
-    // $bg-noise-opacity-default:    0.08;
-    // $bg-noise-size-default:       200;
-    // $bg-noise-mono-default:       false;
+    // $sassy-noise-intensity-default:  0.5;
+    // $sassy-noise-opacity-default:    0.08;
+    // $sassy-noise-size-default:       200;
+    // $sassy-noise-mono-default:       false;
 
     @import "sassy-noise";
     
